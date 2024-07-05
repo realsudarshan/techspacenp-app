@@ -1,0 +1,11 @@
+.step-item {
+  @apply w-full flex flex-col items-center justify-between gap-2;
+}
+
+.step {
+  @apply transition-all duration-300 flex items-center justify-center w-[15px] h-[15px] bg-[var(--dark-background)] text-[var(--light-text)] rounded-full p-5;
+}
+
+.active {
+  @apply flex justify-center items-center w-[15px] h-[15px] bg-[var(--primary-color)] text-[var(--light-text)] rounded-full p-5;
+}

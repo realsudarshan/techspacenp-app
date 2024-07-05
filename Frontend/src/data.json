@@ -1,0 +1,123 @@
+{
+  "navbar": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "About us",
+      "path": "/about-us"
+    },
+    {
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "ServicesData": [
+    {
+      "id": 0,
+      "title": "Web Design",
+      "image": "https://cdn.sanity.io/images/tlr8oxjg/production/cbce8b3ffe9e0b82f5d710b56ed210546228c415-1232x690.png?w=3840&q=80&fit=clip&auto=format",
+      "completedProject": "+6"
+    },
+    {
+      "id": 1,
+      "title": "Frontend Development",
+      "image": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg",
+      "completedProject": "+6"
+    },
+    {
+      "id": 2,
+      "title": "Backend Development",
+      "image": "https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg",
+      "completedProject": "+2"
+    },
+    {
+      "id": 3,
+      "title": "Fullstack Development",
+      "image": "https://wallpaperbat.com/img/873547-useful-websites-every-front-end.png",
+      "completedProject": "+3"
+    }
+  ],
+  "PlanPackages": [
+    {
+      "id": 0,
+      "plan": "Basic",
+      "totalPage": "10",
+      "PackagePrice": 10000,
+      "features": [
+        "Basic Analytics Integration",
+        "Image Resolution",
+        "Responsive/Mobile Friendly",
+        "Website security/SSL",
+        "1 year hosting free"
+      ]
+    },
+    {
+      "id": 1,
+      "plan": "Standard",
+      "totalPage": "20",
+      "PackagePrice": 30000,
+      "features": [
+        "Performance Optimization",
+        "Advanced Analytics", 
+        "Custom Forms",
+        "API Integration",
+        "Content Management System"
+      ]
+    },
+    {
+      "id": 2,
+      "plan": "Premium",
+      "totalPage": "Unlimited",
+      "PackagePrice": 50000,
+      "features": [
+        "Advanced UX/UI Design",
+        "Enterprise-Level SEO",
+        "Advanced E-commerce",
+        "Website security/SSL",
+        "Custom CMS"
+      ]
+    }
+  ],
+  "Employee": [
+    {
+      "title": "Aneej Ghimire",
+      "profession": "Digital Marketing",
+      "image_url": "..photos/Aneej.jpg"
+    },
+    {
+      "title": "Sudarshan Dhakal",
+      "profession": "Full Stack developer",
+      "image_url": "..photos/Sudarshan.jpg"
+    },
+    {
+      "title": "Saroj GT",
+      "profession": "MERN Developer",
+      "image_url": "..photos/rounded.png"
+    }
+  ],
+  "trustyData" : [
+    {
+      "title": "Customer Testimonials",
+      "description": "Read genuine reviews from our satisfied clients who have benefited from our web development services."
+    },
+    {
+      "title": "Certified Expertise",
+      "description": "Our team consists of certified professionals with years of experience in delivering high-quality web solutions."
+    },
+    {
+      "title": "Secure and Reliable",
+      "description": "We prioritize security and reliability, ensuring your website is protected with the latest security measures."
+    },
+    {
+      "title": "Transparent Process",
+      "description": "Our process is transparent from start to finish, keeping you informed and involved every step of the way."
+    }
+  ]
+  
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+
+
+
+
+@layer base {
+  :root {
+    --primary-color: #2c398d;
+    --primary-bg: #1b235b;
+    --primary-green: #4b9718;
+    --button-color: #ffe361;
+
+    --light-foreground: #fbfbfb;
+    --light-background: #efeff1;
+    --light-border: #dedde2;
+
+    --dark-foreground: #252329;
+    --dark-background: #1b1f24;
+    --dark-border: #3e3b45;
+
+    --light-text: #fefefe;
+    --light-secondary-text: #d8d6dc;
+    --dark-text: #3e3e3e;
+    --dark-secondary-text: #8a8495;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  body {
+    background-color: var(--light-background);
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+  }
+
+  .fade-in img {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #specials {
+    scroll-behavior: smooth;
+  }
+}
+
+#video{
+  z-index: 200000;
+  position: fixed;
+  top: 10rem;
+  right: 0px;
+  left: 0px;
+}

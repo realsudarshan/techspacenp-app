@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl":"Frontend/src"
+    ,
+    "paths":{
+        "photos/*":["../photos/*"]
+    }
+},
+    "include":["src"]
+}

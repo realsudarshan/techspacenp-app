@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+
+    "jsx": "react",
+
+    "module": "ESNext",
+    "rootDir": "./src",
+    "moduleResolution": "Node",
+
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
